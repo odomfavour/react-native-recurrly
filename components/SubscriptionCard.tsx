@@ -83,7 +83,7 @@ const SubscriptionCard = ({
                   numberOfLines={1}
                   ellipsizeMode="tail"
                 >
-                  {paymentMethod?.trim()}
+                  {paymentMethod?.trim() ?? "Not Provided."}
                 </Text>
               </View>
             </View>
@@ -95,7 +95,7 @@ const SubscriptionCard = ({
                   numberOfLines={1}
                   ellipsizeMode="tail"
                 >
-                  {category?.trim()}
+                  {category?.trim() ?? "Not Provided."}
                 </Text>
               </View>
             </View>

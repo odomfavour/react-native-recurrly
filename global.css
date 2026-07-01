@@ -22,8 +22,8 @@
   --font-sans-medium: sans-medium;
   --font-sans-semibold: sans-semibold;
   --font-sans-bold: sans-bold;
-  --font-sans-extrabold: sans-bold;
-  --font-sans-bold: sans-bold;
+  --font-sans-extrabold: sans-extrabold;
+  /* --font-sans-bold: sans-bold; */
 
   --spacing-0: 0px;
   --spacing-1: 4px;
